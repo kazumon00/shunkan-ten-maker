@@ -1,4 +1,3 @@
-import React from "react";
 import { StyleSheet } from "react-native";
 
 const TitleScreenStyles = StyleSheet.create({
@@ -6,25 +5,32 @@ const TitleScreenStyles = StyleSheet.create({
         flex: 1,
         justifyContent: "center",
         alignItems: "center",
+        backgroundColor: "#D3D3D3", // 明るいグレー背景
     },
-    //ゲームタイトル
+    // ゲームタイトル
     title: {
-        fontSize: 32,
+        fontSize: 36,
         fontWeight: "bold",
+        color: "#333", // ダークグレーで視認性UP
+        marginBottom: 40,
     },
-    //ボタン
+    // ボタン（青系）
     button: {
-        backgroundColor: "#3498db",
-        paddingVertical: 10,
-        paddingHorizontal: 20,
+        backgroundColor: "#3498db", // 青系（ModeSelectScreenと統一）
+        paddingVertical: 15,
+        paddingHorizontal: 30,
         borderRadius: 8,
+        shadowColor: "#217dbb", // 影も青系で統一
+        shadowOffset: { width: 0, height: 3 },
+        shadowOpacity: 0.3,
+        shadowRadius: 5,
     },
-    //ボタンテキスト
+    // ボタンテキスト
     buttonText: {
-        color: "white",
-        fontSize: 18,
+        color: "#fff",
+        fontSize: 20,
         fontWeight: "bold",
     },
-})
+});
 
 export default TitleScreenStyles;
