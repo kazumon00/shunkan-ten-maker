@@ -5,22 +5,22 @@ const TitleScreenStyles = StyleSheet.create({
         flex: 1,
         justifyContent: "center",
         alignItems: "center",
-        backgroundColor: "#D3D3D3", // 明るいグレー背景
+        backgroundColor: "#D3D3D3",
     },
     // ゲームタイトル
     title: {
         fontSize: 36,
         fontWeight: "bold",
-        color: "#333", // ダークグレーで視認性UP
+        color: "#333",
         marginBottom: 40,
     },
     // ボタン（青系）
     button: {
-        backgroundColor: "#3498db", // 青系（ModeSelectScreenと統一）
+        backgroundColor: "#3498db",
         paddingVertical: 15,
         paddingHorizontal: 30,
         borderRadius: 8,
-        shadowColor: "#217dbb", // 影も青系で統一
+        shadowColor: "#217dbb",
         shadowOffset: { width: 0, height: 3 },
         shadowOpacity: 0.3,
         shadowRadius: 5,
