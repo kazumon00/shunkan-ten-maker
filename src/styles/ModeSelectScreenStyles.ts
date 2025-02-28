@@ -3,13 +3,13 @@ import { StyleSheet } from "react-native";
 const ModeSelectScreenStyles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: "#D3D3D3", // 明るいグレー
+        backgroundColor: "#D3D3D3",
         padding: 20,
         justifyContent: "space-between",
     },
     // 説明テキストエリア（上部）
     descriptionSection: {
-        flex: 0.8, // 少し大きめにしてバランスを取る
+        flex: 0.8,
         justifyContent: "center",
         alignItems: "center",
         paddingHorizontal: 20,
@@ -19,12 +19,12 @@ const ModeSelectScreenStyles = StyleSheet.create({
         fontWeight: "bold",
         color: "#333",
         textAlign: "center",
-        maxWidth: "80%", // 説明テキストの横幅を制限
-        lineHeight: 28, // 行間を広げて可読性をアップ
+        maxWidth: "80%",
+        lineHeight: 28,
     },
     // 画像エリア
     imageContainer: {
-        flex: 1.2, // 説明より少し大きめにする
+        flex: 1.2,
         justifyContent: "center",
         alignItems: "center",
     },
@@ -44,16 +44,16 @@ const ModeSelectScreenStyles = StyleSheet.create({
         marginBottom: 20,
     },
     modeButton: {
-        backgroundColor: "#3498db", // デフォルトの青
+        backgroundColor: "#3498db",
         paddingVertical: 10,
         paddingHorizontal: 15,
         borderRadius: 8,
         borderWidth: 2,
-        borderColor: "transparent", // デフォルトでは枠なし
+        borderColor: "transparent",
     },
     selectedModeButton: {
-        backgroundColor: "#1d70b8", // 選択時に少し暗めの青に
-        borderColor: "#fff", // 選択時に白枠を追加
+        backgroundColor: "#1d70b8",
+        borderColor: "#fff",
     },
     modeButtonText: {
         fontSize: 16,
@@ -61,20 +61,20 @@ const ModeSelectScreenStyles = StyleSheet.create({
         color: "#fff",
     },
     selectedModeText: {
-        color: "#f1c40f", // 選択時のテキストを黄色にして目立たせる
+        color: "#f1c40f",
     },
     actionButtonContainer: {
         flexDirection: "row",
         justifyContent: "space-around",
     },
     startButton: {
-        backgroundColor: "#3498db", // 統一
+        backgroundColor: "#3498db",
         paddingVertical: 10,
         paddingHorizontal: 20,
         borderRadius: 8,
     },
     titleButton: {
-        backgroundColor: "#e74c3c", // 赤系
+        backgroundColor: "#3498db",
         paddingVertical: 10,
         paddingHorizontal: 20,
         borderRadius: 8,

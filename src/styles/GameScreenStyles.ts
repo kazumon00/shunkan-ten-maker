@@ -4,7 +4,7 @@ import { StyleSheet } from "react-native";
 const GameScreenStyles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#1a1a1a", // ダークな背景
+    backgroundColor: "#1a1a1a",
     padding: 20,
     justifyContent: "center",
     alignItems: "center",
@@ -33,12 +33,12 @@ const GameScreenStyles = StyleSheet.create({
     width: "100%",
     flexDirection: "row",
     flexWrap: "wrap",
-    justifyContent: "space-around", // ボタン間の均等配置
+    justifyContent: "space-around",
     alignItems: "center",
   },
   button: {
-    width: "30%",       // 3列に収めるため
-    aspectRatio: 1,     // 正方形にする
+    width: "30%",
+    aspectRatio: 1,
     backgroundColor: "#3498db",
     justifyContent: "center",
     alignItems: "center",
@@ -46,7 +46,7 @@ const GameScreenStyles = StyleSheet.create({
     marginVertical: 10,
   },
   selectedButton: {
-    backgroundColor: "#f1c40f", // 選択状態の際の背景色（黄色）
+    backgroundColor: "#f1c40f",
   },
   buttonText: {
     fontSize: 20,
@@ -60,7 +60,7 @@ const GameScreenStyles = StyleSheet.create({
     marginTop: 20,
   },
   shuffleButton: {
-    backgroundColor: "#f39c12",  // シャッフルボタンのオレンジ色
+    backgroundColor: "#f39c12",
     paddingVertical: 12,
     paddingHorizontal: 20,
     borderRadius: 8,
@@ -91,7 +91,7 @@ const GameScreenStyles = StyleSheet.create({
   },
   // ゲーム開始前に表示するスタートボタン（オーバーレイではなく通常配置）
   startButton: {
-    backgroundColor: "#27ae60", // 緑色
+    backgroundColor: "#27ae60",
     paddingVertical: 10,
     paddingHorizontal: 20,
     borderRadius: 8,
@@ -110,7 +110,7 @@ const GameScreenStyles = StyleSheet.create({
 highScoreText: {
     fontSize: 22,
     fontWeight: "bold",
-    color: "#f1c40f", // 黄色でハイスコアを目立たせる
+    color: "#f1c40f",
     marginBottom: 15,
 },
 });
