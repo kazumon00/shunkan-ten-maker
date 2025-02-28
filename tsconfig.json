@@ -9,6 +9,7 @@
       "@utils/*": ["src/utils/*"],
       "@styles/*": ["src/styles/*"],
       "@types": ["src/types.ts"],
+      "@assets":["./assets/*"],
     }
   }
 }
