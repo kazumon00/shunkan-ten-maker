@@ -134,7 +134,7 @@ const GameScreen = () => {
             if (sum === 10) {
                 setScore(prev => prev + 1);
             } else {
-                setScore(prev => prev - 1);
+                setScore(prev => Math.max(0, prev - 1));
             }
 
             //選択されたボタンの数字を更新する処理
@@ -146,7 +146,7 @@ const GameScreen = () => {
                 return newNumbers;
             })
 
-            //0.5秒後に選択状態をリセット
+            //0.1秒後に選択状態をリセット
             setTimeout(() => {
                 setSelectedButtons([])
             }, 100);

@@ -14,7 +14,9 @@ const Stack = createStackNavigator<RootStackParamList>();
 export default function App() {
   return (
     <NavigationContainer>
-      <Stack.Navigator initialRouteName="Title">
+      <Stack.Navigator initialRouteName="Title"
+      screenOptions={{ headerShown: false }} // 🔹 ヘッダーを非表示
+      >
         <Stack.Screen name="Title" component={TitleScreen} options={{title: "タイトル画面"}}/>
         <Stack.Screen name="ModeSelect" component={ModeSelectScreen} options={{title: "モード選択画面"}}/>
         <Stack.Screen name="Game1" component={GameScreen} options={{title: "ゲーム画面1"}}/>

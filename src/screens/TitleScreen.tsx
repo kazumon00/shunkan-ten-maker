@@ -36,7 +36,7 @@ const TitleScreen = () => {
                     onPressIn={handlePressIn}
                     onPressOut={handlePressOut}
                 >
-                    <Text style={TitleScreenStyles.buttonText}>ゲームスタート</Text>
+                    <Text style={TitleScreenStyles.buttonText}>はじめる</Text>
                 </TouchableOpacity>
             </Animated.View>
         </View>
