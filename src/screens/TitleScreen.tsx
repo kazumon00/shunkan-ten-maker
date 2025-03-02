@@ -29,7 +29,7 @@ const TitleScreen = () => {
 
     return (
         <View style={TitleScreenStyles.container}>
-            <Text style={TitleScreenStyles.title}>瞬間10メイカー</Text>
+            <Text style={TitleScreenStyles.title}>瞬間10メーカー</Text>
             <Animated.View style={{ transform: [{ scale: scaleAnim }] }}>
                 <TouchableOpacity
                     style={TitleScreenStyles.button}

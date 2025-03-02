@@ -102,7 +102,7 @@ const ModeSelectScreen = () => {
                         <Text style={[
                             ModeSelectScreenStyles.modeButtonText, 
                             selectedMode === 2 && ModeSelectScreenStyles.selectedModeText
-                        ]}>10メイカー</Text>
+                        ]}>10メーカー</Text>
                     </TouchableOpacity>
 
                     <TouchableOpacity 
